@@ -29,7 +29,7 @@ O preço unitário do título mantido.
 ## maturity
 Data de vencimento do título mantido.
 
-# datePurchase
+## datePurchase
 A data em que o título foi comprado.
 
 O entesouramento ocorrerá de acordo com a seguinte fórmula:
@@ -43,3 +43,5 @@ Quantidade de novos titulos * Preço unitário de novos titulos = Novo Entesoura
 O Novo Entesouramento gera uma quantidade de 1:X onde X = Valor unitario por Stable
 
 Veja um exemplo [exemplo](placeholder)
+
+Neste exemplo, também podemos observar como funcionariam possíveis futuros processos de tesouraria e desempenho de funções relacionadas, embora eu não me aprofunde muito nesse assunto, pois o nível de complexidade aumenta significativamente para uma apresentação simples da ideia. É importante ressaltar que este documento é apenas um esboço e tem como objetivo validar a ideia, pois há muitos outros aspectos a serem considerados além do que está aqui.

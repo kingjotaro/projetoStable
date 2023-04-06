@@ -60,5 +60,6 @@ const totalBondsAfterSecondTreasury = firstTreasury.totalBonds + secondTreasury.
 console.log("Quantidade total de títulos após o segundo entesouramento: " + totalBondsAfterSecondTreasury);
 
 
-// ...
+// Não me extendendo mais, é necessario que se crie isso de processos a gerar funcionalidade de entesouramento e desentesouramento.
+
 
