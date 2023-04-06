@@ -1,32 +1,32 @@
-## Lastro Entesourado
+# Lastro Entesourado
 
 Nesse documento apresento uma ideia de como poderia ser realizado o lastro entesourado.
 
-# Modelo
+## Modelo
 
-{
-    _id: "123456",
-    typeBonds: "IPCA+",
-    totalBonds: 1000,
-    unitPrice: 1000,
-    maturity: 2050,
-    datePurchase: "01/01/2025",
+    {
+        _id: "123456",
+        typeBonds: "IPCA+",
+        totalBonds: 1000,
+        unitPrice: 1000,
+        maturity: 2050,
+        datePurchase: "01/01/2025",
 
-}
+    }
 
-# _id
+## _id
 O ID seria automaticamente atribuído pelo MongoDB.
 
-# typeBonds
+## typeBonds
 O tipo de título descreve qual título da dívida pública está sendo mantido e seu modelo de rendimento.
 
-# totalBonds
+## totalBonds
 Número total de títulos mantidos.
 
-# unitPrice
+## unitPrice
 O preço unitário do título mantido.
 
-# maturity
+## maturity
 Data de vencimento do título mantido.
 
 # datePurchase
