@@ -1,0 +1,4 @@
+# **Conta**
+
+Essa estrutura do projeto que estamos desenvolvendo é a principal interface do cliente, onde ele pode ter acesso a diversas opções e atividades para realizar em sua conta. Entretanto, há um aspecto importante que diferencia nossa abordagem: nossa moeda Stable. Com o tempo, ela passará a ter valor relativo à inflação da moeda FIAT. Por isso, é essencial que o cliente sempre se lembre de que seu saldo é representado em dois estados: um em moeda FIAT, que ele usará para fazer cálculos econômicos em suas transações, e outro em moeda Stable. Essa abordagem demonstra ao cliente que seu dinheiro está valendo cada vez mais, o que transmite uma sensação de confiança em nosso modelo de negócio.
+__________________
