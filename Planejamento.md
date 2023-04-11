@@ -23,4 +23,6 @@ Dentre essas opções, a que oferece maior estabilidade para criar lastro na moe
 
 Também é possível até mesmo criar lastro em títulos de ações. Apesar da variação ser maior, essa é uma opção muito interessante que possa ser explorada em outras moedas.
 
+## Desafios
+Dentre os grandes desafios para o funcionamento do URV digital eu destaco dois, o primeiro é de ser capaz de criar um sistema de incentivo e desincentivo conforme a flutuação do preço de mercado do URV digital, uma moeda que não tem inflação poderia ser adotada massivamente e desestruturar o sistema financeiro atual. Em segundo lugar eu colocaria a infraestrutura capaz de executar tal modelo, quando falamos de criação da URV digital estamos falando de rodar esse sistema em um banco digital que já tem amplo funcionamento de suas atividades básicas, o objetivo aqui não é reinventar a roda mas sim engraxar suas estruturas.
 

@@ -17,5 +17,3 @@ Dentre as melhores possibilidades de explorar o valor dessa moeda acredito que s
 
 
 
-## Desafios
-Dentre os grandes desafios para o funcionamento do URV digital eu destaco dois, o primeiro é de ser capaz de criar um sistema de incentivo e desincentivo conforme a flutuação do preço de mercado do URV digital, uma moeda que não tem inflação poderia ser adotada massivamente e desestruturar o sistema financeiro atual. Em segundo lugar eu colocaria a infraestrutura capaz de executar tal modelo, quando falamos de criação da URV digital estamos falando de rodar esse sistema em um banco digital que já tem amplo funcionamento de suas atividades básicas, o objetivo aqui não é reinventar a roda mas sim engraxar suas estruturas.
