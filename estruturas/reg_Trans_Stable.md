@@ -8,8 +8,12 @@ Essa estrutura é responsavel por registrar as transações feitas no sistema St
 - Transações que envolvam conta do cliente "entesouramente e desentesouramento"
 - Pagamentos PIX/Stable
   
+
+
+ ## modificar para ser uma operação dois objetos, um para quem envia e outro para quem recebe
       {
-       _id: "131414",
+
+       _id: "56a4f3564",
        sender_id: "56a4f3564",
        receiver_id: "13j1fj13",
        status: 3,
@@ -17,9 +21,6 @@ Essa estrutura é responsavel por registrar as transações feitas no sistema St
        is_charge: False,
        amount: 50,
        date: "11/04/2023",
-       date_exp: {},
-       fee: 0.01,
-       interest: 0.10,
       }   
 
 ______________
@@ -69,15 +70,7 @@ Campo que informa o valor total da transação.
 
 Data que foi realizada
 
-        fee 
-Taxa cobrada na transação, 1 = 100% 
 
-        interest
-Taxa de juros que talvez deva ser utilizada na cobrança, ainda não esta decidido este formato de cobrança, place_holder sexo2
-
-        date_exp
-
-Caso seja uma cobrança, pode ter data de vencimento, juros e tempo de experiração da cobrança e outra demais coisas que ainda não desenvolvi bem, place_holder sexo
 
 
 

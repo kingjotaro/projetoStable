@@ -6,12 +6,10 @@ A minha ideia para mudar essa realidade é simples e eficaz. Uma moeda digital e
 __________________
 Essa iniciativa ofereceria facilidade e comodidade para aqueles que não têm tempo ou conhecimento para organizar suas finanças, tornando a proteção financeira ainda mais acessível e eficaz. Tudo isso se baseia em uma proposta de que é inspirada no antigo URV pré Plano Real, mas com uma abordagem totalmente digital. 
 __________________
-O objetivo do URV digital é proteger os cidadões e empreendedores contra a inflação, assim que lançada ela teria uma paridade de valor de 1:1 com o real, após o lançamento seu valor iria começar a flutuar conforme a precificação do mercado, seu lastro seria totalmente ancorado em titulos publicos de forma bem similar que a URV do plano real foi ancorado no dolar.
+O objetivo do URV digital é proteger os clientes contra a inflação, assim que lançada ela teria uma paridade de valor de 1:1 com o Real, após o lançamento seu valor iria começar a flutuar conforme a precificação do mercado, seu lastro seria totalmente ancorado em titulos publicos de forma bem similar que a URV do plano real foi ancorado no dolar, toda compra que fosse realizado com preços em Real poderia ser convertido para o valor da Stable, o Real ainda seria a unidade de conta de nossa economia, enquanto a Stable seria uma moeda inteligente que tem seu lastro nos titulos da divida publica, para quando for liquida por Real não perder seu valor para a inflação.
 __________________
-A forma de capitalização em cima desse sistema ocorre principalmente se dando a monopolização dos serviços, capitalizando todos os clientes de um sistema em cconjunto com o sistema financeiro atual, podendo ser replicado não só no Brasil, mas em todos os outros paises em que a legislação vigente permitir.
+Existem diversas formas de capitalizar esse tipo de serviço, uma bem simples seria manter um spread entre o valor de valorização do titulo e o da moeda, outras formas podem ser melhores elaboradas conforme o sucesso da Stable.
 __________________
-É preciso ter em mente que a emisão de uma moeda URV digital que não sofre inflação é algo bem limitado, a moeda de forma alguma pode chegar perto de substituir o real, pois acredito que isso causaria graves problemas financeiros no sistema de contas nacionais, a ideia é apenas uma fração de um sistema que iria operar em conjunto/parelelo com o sistema financeiro atual, uma dualidade que só traria beneficios.
-
 
 
 
