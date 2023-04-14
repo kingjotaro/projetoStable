@@ -1,11 +1,8 @@
 ## **Histórico  Cliente**
 
-O histórico do cliente é a estrutura responsavel por acessar todas as transações do cliente no [Registro de transações da Stable](./estruturas/reg_Trans_Stable.md), e gerar uma nova estrutura.
+O histórico do cliente é a estrutura responsavel por acessar todas as transações do cliente no [Registro de transações da Stable](./estruturas/reg_Trans_Stable.md).
 
-Antes de gerar uma nova estrutura, o histórico do cliente acessa ao 
-[Sistema de verificação de conta](./estruturas/validação_Conta.md) para verificar a conta que esta sendo acessada.
-
-
+Antes de acessar o registro do cliente para elaborar um histórico é necessario verificar a conta que esta sendo acessada atraves do [Sistema de verificação de conta](./estruturas/validação_Conta.md). 
 
 
 

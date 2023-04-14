@@ -4,11 +4,9 @@ A estrutura da conta Stable é responsavel por guardar o saldo dos clientes, ela
 
 
         {
-        _id_: "56a4f3564",
-        titular: "João Silva",
+        _id: "56a4f3564",
+        titular: "João Silva 123",
         saldo: 5000,
-        dataAbertura: "01/01/2022",
-        cpf: "123456789",
         }
 __________________
 
