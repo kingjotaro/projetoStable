@@ -1,84 +1,82 @@
-# **Definição da estrutura da URV digital**
+# **Definition of the digital URV Structure**
 
-## [Exemplo de arquitetura](https://excalidraw.com/#json=GJEPPgcxL2kYbiLLUDrBM,l6ICW01xHVV5Kjkupa8A_A)
-
-## **Legendas**
-
-<span style="color:lightblue"> Azul: Lembretes.</span>
-
-<span style="color:orange">Laranja: Atividades externas do sistema exercida pela estrutura já existente.</span>
-
-<span style="color:green">Verde: Implementação do Front e Backend.</span>
-
-<span style="color:purple">Roxo : Backend com interface para adminsitração.</span>
-
-<span style="color:gray">Cinza: Backend.</span>
+## [Example of architecture](https://excalidraw.com/#json=GJEPPgcxL2kYbiLLUDrBM,l6ICW01xHVV5Kjkupa8A_A)
 
 
-Setas indicam um fluxo de dados a ser seguido, mas não necessariamente apenas de uma unica via.
+<span style="color:lightblue"> Blue: Reminders.</span>
 
-# **Estruturas**
+<span style="color:orange">Orange: External activities of the system carried out by the existing structure.</span>
 
-## - [Lastro](./estruturas/lastro.md)
+<span style="color:green">Green: Implementation of Front and Backend.</span>
 
-Esta estrutura representa lasto estesourado, tudo começa aqui quando pegamos os titulos adquiridos pela nosso banco digital e criamos nossa Stable com base nos valores desse titulo, então esse é o primeiro documento que você deveria checar. 
+<span style="color:purple">Purple: Backend with interface for administration.</span>
+
+<span style="color:gray">Gray: Backend.</span>
+
+Arrows indicate a flow of data to be followed, but not necessarily in a single way.
+
+# **Structures**
+
+## - [Underlying Asset](./estruturas/underlying.md)
+
+This structure represents the underlying asset, which is where everything starts when we take the titles acquired by our digital bank and create our Stable based on the values of that title. So this is the first document you should check. 
 __________________
-## - [Registro de Transações do Tesouro](./estruturas/reg_Trans_Tesouro.md)
+## - [Treasury Transaction Register](./estruturas/TTR.md)
 
-Esta estrutura representa o registro de transações no tesouro, que se encontra logo acima do lastro entesourado no Excali. Tal estrutura de dados tem como objetivo armazenar todas as entradas e saídas do tesouro, funcionando como o livro contábil do lastro.
-__________________
-## - [Update de Saldo Disponivel](./estruturas/update_Saldo_Disponivel.md)
-
-Essa é, sem dúvida, uma das estruturas mais importantes para o funcionamento do nosso projeto. É ela que atualiza todos os saldos das contas Stable, realizando as operações de débito e crédito de maneira similar ao funcionamento de uma conta bancária convencional. É importante destacar que essa estrutura é crucial para o correto funcionamento do sistema, garantindo a precisão das informações e o correto registro de todas as transações realizadas.
-__________________
-## - [Registro de transações da Stable](./estruturas/reg_Trans_Stable.md)
-
-Além de funcionar como um livro contábil, o registro de transações nas contas Stable também pode ser utilizado para realizar checagens e gerar históricos dos clientes. Com esse registro, é possível verificar o histórico de depósitos e saques realizados por cada cliente, bem como a movimentação de suas Stablecoins ao longo do tempo. Isso permite que sejam identificados possíveis erros ou fraudes e que sejam tomadas medidas para corrigi-los ou evitá-los. Além disso, os históricos dos clientes podem ser usados para análises e estatísticas sobre o uso das contas Stable, o que pode ser útil para aprimorar o serviço oferecido aos usuários.
-__________________
-## - [Conta Stable](./estruturas/conta_Stable.md)
-
-No que diz respeito ao sistema de contas, há a possibilidade de adotar uma estrutura semelhante à utilizada pelo sistema bancario atual ou criar algo completamente novo. Nesse caso, optei por seguir a estrutura já existente, com o intuito de tornar mais fácil a integração com outras operações financeiras. Entretanto, é importante lembrar que ainda não é possível afirmar com certeza se essa decisão será correta, pois depende de diversos fatores e pode ser necessário realizar alguns ajustes.
+This structure represents the register of transactions in the treasury, which is located just above the underlying asset in Excali. The purpose of this data structure is to store all treasury inflows and outflows, functioning as the ledger of the underlying asset.
 
 __________________
-## - [Trocar Stable por FIAT](./estruturas/swap_FIAT.md)
+## - [Balance Update](./estruturas/balance_Update.md)
 
-Realizar a conversão de Stablecoins para moedas Fiat através da estrutura front/back.
+This is undoubtedly one of the most important structures for the functioning of our project. It updates all Stable account balances, performing debit and credit operations similar to the functioning of a conventional bank account. It is important to highlight that this structure is crucial for the correct functioning of the system, ensuring the accuracy of information and the correct registration of all transactions carried out.
+__________________
+## - [Stablecoin Transaction Register](./estruturas/STR.md)
+
+In addition to functioning as an accounting ledger, the register of transactions in Stable accounts can also be used to perform checks and generate customer histories. With this register, it is possible to verify the history of deposits and withdrawals made by each customer, as well as the movement of their Stablecoins over time. This allows possible errors or frauds to be identified and measures to correct or avoid them to be taken. In addition, customer histories can be used for analyses and statistics on the use of Stable accounts, which can be useful for improving the service offered to users.
+__________________
+## - [Stable Account](./estruturas/acc_Stable.md)
+
+With regard to the account system, there is the possibility of adopting a structure similar to that used by the current banking system or creating something completely new. In this case, I chose to follow the existing structure, in order to make integration with other financial operations easier. However, it is important to remember that it is still not possible to say for sure whether this decision will be correct, as it depends on several factors and adjustments may be necessary.
+__________________
+## - [Swap Stable for FIAT](./estruturas/swap_FIAT.md)
+
+Perform the conversion of Stablecoins to Fiat currencies through the front/back structure.
 
 __________________
-## - [Consultar saldo na conta Stable](./estruturas/saldo_Disponivel_Stable.md)
+## - [Check Stable Account Balance](./estruturas/CSAB.md)
 
-Verificar o saldo disponível na conta de Stablecoins.
-
-__________________
-## - [Cobranças](./estruturas/cobranças.md)
-
- Gerar e pagar cobranças, utilizando tanto moedas Fiat como Stablecoins.
+Check the available balance in the Stablecoin account.
 
 __________________
-## - [Transferências](./estruturas/transferencias.md)
+## - [Billing](./estruturas/billing.md)
 
-Realizar transferências de Stablecoins para contas dentro ou fora do sistema, ou transferências via PIX.
+ Generate and pay bills, using both Fiat currencies and Stablecoins.
 
 __________________
-## - [Consultar status](./estruturas/status.md)
+## - [Transfers](./estruturas/transfer.md)
 
-Consultar o status de uma transação realizada, para obter informações sobre o processamento da mesma.
+Perform transfers of Stablecoins to accounts within or outside the system, or transfers via PIX.
+
 __________________
-## - [Verificar histórico](./estruturas/histórico_Cliente.md)
+## - [Check Status](./estruturas/status.md)
 
-Verificar o histórico de transações pessoais realizadas na plataforma para acompanhar o fluxo financeiro.
+Check the status of a transaction made to obtain information about its processing.
 __________________
-## - [Sistema de verificação de conta](./estruturas/validação_Conta.md)
+## - [Check Transaction History](./estruturas/client_history.md)
 
-Sistema que ira verificar saldo, id e outro demais dados do cliente.
+Check the personal transaction history made on the platform to keep track of the financial flow.
 __________________
-## - [Transferencia via stable](./estruturas/transfer_Stable.md)
+## - [Account Validation System](./estruturas/acc_valitadion.md)
 
-Sistema que ira transferir Stable entre contas do sistema Stable.
+System that will verify the balance, ID, and other client information.
 __________________
-## - [Transferencia via Pix Stable para fora do sistema Stable](./estruturas/transfer_Pix.md)
+## - [Stable Transfer System](./estruturas/STS.md)
 
-Sistema que ira realizar uma troca de Stable por FIAT e realizar um pix para fora do sistema Stable.
+System that will transfer Stable between accounts within the Stable system.
+__________________
+## - [Stable to FIAT Transfer System via Pix](./estruturas/transfer_Pix.md)
+
+System that will exchange Stable for FIAT and perform a Pix transfer outside of the Stable system.
 __________________
 
 
