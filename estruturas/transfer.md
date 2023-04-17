@@ -1,6 +1,6 @@
 # Transfer
 
-The transaction is generated based on the information provided by the client and their own account information. In this transaction example, we have a transfer that will be executed within the Stable system, from one Stable account to another, with a value of 500 Stables.
+This structure acts with a frontend that receives data for a transaction generated based on information provided by the client and their own account details. In this example, the transaction involves transferring 500 stables from one Stable account to another within the Stable system.
 
             {
     _id: "123456",
@@ -42,3 +42,5 @@ ____
 This structure interacts directly with the following structures.
 
 ## - [Account Validation System](./acc_valitadion.md)
+
+## - [Stable Account](./acc_Stable.md)

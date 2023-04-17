@@ -39,6 +39,8 @@ This structure interacts directly with the following structures.
 
 ## - [Check Stable Account Balance](./CSAB.md)
 
+## - [Check Transaction History](./estruturas/client_history.md)
+
 ## - [Billing](./billing.md)
 
 ## - [Transfers](./transfer.md)

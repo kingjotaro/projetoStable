@@ -1,9 +1,30 @@
-## **Histórico  Cliente**
+## **Client History**
 
-O histórico do cliente é a estrutura responsavel por acessar todas as transações do cliente no [Registro de transações da Stable](./estruturas/reg_Trans_Stable.md).
+The client's history is a structure responsible for accessing all of the client's transactions in the stable transaction record. The information is organized in the record, making it easy to retrieve when needed.
 
-Antes de acessar o registro do cliente para elaborar um histórico é necessario verificar a conta que esta sendo acessada atraves do [Sistema de verificação de conta](./estruturas/validação_Conta.md). 
+        {
+            _id: "56a4f3564",
+            holder: "João Silva 123",
+            action: "history",
+        }
 
 
 
+# Description
 
+    _id:
+Client ID.
+
+  holder 
+Client name.
+
+    action
+Type of action being executed.
+
+___
+
+This structure interacts directly with the following structures.
+
+## - [Check Status](./status.md)
+
+## - [Stable Account](./acc_Stable.md)
