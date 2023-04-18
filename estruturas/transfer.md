@@ -32,7 +32,7 @@ Destination to which the transaction will be made, either in FIAT or Stable curr
 Transaction amount.
 
     action
-Type of action being executed, in the case of transactions, it will always be a fixed value to be identified during validation.
+Type of action being executed, it will always be a fixed value to be identified during validation.
     date 
 Transaction date.
 
