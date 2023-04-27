@@ -4,9 +4,9 @@ System that automatically updates and displays the current balance in Stable on 
 
 
     {
-    _id: "56a4f3564",
-    holder: "João Silva 123",
-    balance: 5000,
+     _id: "56a4f3564",
+     holder: "João Silva 123",
+     balance: 5000,
     }
 
 

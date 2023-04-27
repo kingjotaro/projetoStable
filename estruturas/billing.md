@@ -7,15 +7,13 @@ This system is the structure responsible for generating bills.
 
 
     {
-        _id: "123456",
-        receiver_id: "56a4f3564",
-        holder: "João Silva 123",
-        is_targeted: True,
-        target_id: "13j1fj13",
-        is_stable: True,
-        value: "500"
-        
-        
+     _id: "123456",
+     receiver_id: "56a4f3564",
+     holder: "João Silva 123",
+     is_targeted: True,
+     target_id: "13j1fj13",
+     is_stable: True,
+     value: "500"          
     }
 
 ## Description

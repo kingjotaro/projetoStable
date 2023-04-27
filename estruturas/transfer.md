@@ -2,16 +2,15 @@
 
 This structure acts with a frontend that receives data for a transaction generated based on information provided by the client and their own account details. In this example, the transaction involves transferring 500 stables from one Stable account to another within the Stable system.
 
-            {
-    _id: "123456",
-    acount_Id: "56a4f3564",
-    is_Stable: True,
-    destiny: "13j1fj13",
-    action: "10"!,
-    value: 500,
-    date: "16/04/2023",
-    time: "07:00",
-    
+    {
+     _id: "123456",
+     acount_Id: "56a4f3564",
+     is_Stable: True,
+     destiny: "13j1fj13",
+     action: "10"!,
+     value: 500,
+     date: "16/04/2023",
+     time: "07:00", 
     }
 
 ## Description

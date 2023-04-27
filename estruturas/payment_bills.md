@@ -4,15 +4,15 @@
 This structure is similar to the one used in billing, but the difference is that we're now processing a payment. As a result, the payment bill includes an additional identification field to be used during validation.
 
     {
-        _id: "123456",
-        receiver_id: "56a4f3564",
-        holder: "João Silva 123",
-        sender_id: "13j1fj13",
-        is_stable: True,
-        value: "500"
-        action: "30"!,
-        date: "16/04/2023",
-        time: "07:00",
+     _id: "123456",
+     receiver_id: "56a4f3564",
+     holder: "João Silva 123",
+     sender_id: "13j1fj13",
+     is_stable: True,
+     value: "500"
+     action: "30"!,
+     date: "16/04/2023",
+     time: "07:00",
     }
 
 

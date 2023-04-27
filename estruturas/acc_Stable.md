@@ -3,10 +3,10 @@
 The Stable account structure is responsible for holding the balance of customers, it is our strongbox in the system where we keep all the necessary information about a customer's account.
 
     {
-    _id: "56a4f3564",
-    fiat_Id: "123456"
-    holder: "João Silva 123",
-    balance: 5000,
+     _id: "56a4f3564",
+     fiat_Id: "123456"
+     holder: "João Silva 123",
+     balance: 5000,
     }
 
 __________________

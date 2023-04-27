@@ -2,11 +2,10 @@
 
 The account validation system verifies various information of an account and the type of operation being performed.
 
-            {
-    _id: "123456",
-    acount_Id: "56a4f3564",
-    action: "10",
-
+    {
+     _id: "123456",
+     acount_Id: "56a4f3564",
+     action: "10",
     }
 
 

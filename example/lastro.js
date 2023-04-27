@@ -1,6 +1,4 @@
-// Representação de como calcular a geração de Stable a partir de um entesouramento em títulos do Tesouro Direto
-
-// Criamos um objeto representando os dados do primeiro entesouramento
+// We create an object representing the data of the first investment
 const firstTreasury = {
     _id: "123456",
     bondType: "IPCA+",
@@ -8,58 +6,49 @@ const firstTreasury = {
     unitPrice: 100,
     maturity: "01/01/2050",
     purchaseDate: "01/01/2025",
-};
-
-// Definimos o conceito de "Stable": é uma unidade de valor que acompanha o valor de alguma moeda ou ativo subjacente, para minimizar a volatilidade.
-// No nosso exemplo, vamos gerar um Stable para cada título comprado, com valor 1:1 em relação ao valor do título.
-
-// Calculamos o total de Stable gerado a partir do primeiro entesouramento
-const totalStableGenerated = firstTreasury.totalBonds * firstTreasury.unitPrice;
-
-console.log("Total gerado de Stable: " + totalStableGenerated);
-
-// Digamos que os preços dos títulos se apreciaram em 10% ao longo de 6 meses
-const actualPriceBond = 110;
-
-
-
-// Agora, em vez de manter a paridade 1:1, vamos fazer o valor da Stable flutuar e adaptar as transações ao valor do real atual
-const stableValue = (firstTreasury.totalBonds * actualPriceBond) / totalStableGenerated;
-
-
-
-console.log("Valor por Stable após flutuação: " + stableValue);
-
-// Criamos um novo objeto representando os dados do segundo entesouramento
-const secondTreasury = {
+    };
+    
+    // We define the concept of "Stable": it is a unit of value that tracks the value of some currency or underlying asset, to minimize volatility.
+    // In our example, we will generate one Stable for each bond purchased, with a value of 1:1 in relation to the bond's value.
+    
+    // We calculate the total Stable generated from the first investment
+    const totalStableGenerated = firstTreasury.totalBonds * firstTreasury.unitPrice;
+    
+    console.log("Total Stable generated: " + totalStableGenerated);
+    
+    // Let's say bond prices appreciated by 10% over 6 months
+    const actualPriceBond = 110;
+    
+    // Now, instead of maintaining the 1:1 parity, let's make the value of Stable fluctuate and adapt transactions to the current real value
+    const stableValue = (firstTreasury.totalBonds * actualPriceBond) / totalStableGenerated;
+    
+    console.log("Stable value after fluctuation: " + stableValue);
+    
+    // We create a new object representing the data of the second investment
+    const secondTreasury = {
     _id: "123457",
     bondType: "IPCA+",
     totalBonds: 5000,
     unitPrice: 110,
     maturity: "01/01/2050",
     purchaseDate: "01/06/2025",
-};
-
-// Total de Stable gerado a partir do segundo entesouramento
-const totalStableGenerated2 =  secondTreasury.totalBonds*secondTreasury.unitPrice;
-
-
-// Agora podemos calcular o valor total em Titulos usuário, considerando ambos os entesouramentos
-const totalStableValue = totalStableGenerated2 + (totalStableGenerated * stableValue);
-
-console.log("Valor atualizado em Stable do primeiro entesouramento: " + totalStableGenerated*stableValue)
-
-console.log("Valor total em Stable do segundo entesouramento: "+ totalStableGenerated2);
-console.log("Valor total somado de ambos entesouramentos: "+ totalStableValue )
-
-
-
-// Calculamos a quantidade total de títulos após o segundo entesouramento
-const totalBondsAfterSecondTreasury = firstTreasury.totalBonds + secondTreasury.totalBonds;
-
-console.log("Quantidade total de títulos após o segundo entesouramento: " + totalBondsAfterSecondTreasury);
-
-
-// Sem extender mais, é necessario que se crie isso de processos a gerar funcionalidade de entesouramento e desentesouramento.
-
+    };
+    
+    // Total Stable generated from the second investment
+    const totalStableGenerated2 = secondTreasury.totalBonds * secondTreasury.unitPrice;
+    
+    // Now we can calculate the total value in bonds for the user, considering both investments
+    const totalStableValue = totalStableGenerated2 + (totalStableGenerated * stableValue);
+    
+    console.log("Updated Stable value of the first investment: " + totalStableGenerated*stableValue)
+    
+    console.log("Total Stable value of the second investment: "+ totalStableGenerated2);
+    console.log("Total value of both investments combined: "+ totalStableValue )
+    
+    // We calculate the total number of bonds after the second investment
+    const totalBondsAfterSecondTreasury = firstTreasury.totalBonds + secondTreasury.totalBonds;
+    
+    console.log("Total number of bonds after the second investment: " + totalBondsAfterSecondTreasury);
+    
+    // Without extending further, it very important create processes to generate the functionality of hoarding and liquidation.
 
