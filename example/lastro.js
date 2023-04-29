@@ -14,7 +14,9 @@ const firstTreasury = {
     // We calculate the total Stable generated from the first investment
     const totalStableGenerated = firstTreasury.totalBonds * firstTreasury.unitPrice;
     
-    console.log("Total Stable generated: " + totalStableGenerated);
+    console.log("Total Stable generated: " + totalStableGenerated); 
+    //>Total Stable generated: 500000
+    
     
     // Let's say bond prices appreciated by 10% over 6 months
     const actualPriceBond = 110;
@@ -23,6 +25,7 @@ const firstTreasury = {
     const stableValue = (firstTreasury.totalBonds * actualPriceBond) / totalStableGenerated;
     
     console.log("Stable value after fluctuation: " + stableValue);
+    //>Stable value after fluctuation: 1.1
     
     // We create a new object representing the data of the second investment
     const secondTreasury = {
@@ -41,14 +44,20 @@ const firstTreasury = {
     const totalStableValue = totalStableGenerated2 + (totalStableGenerated * stableValue);
     
     console.log("Updated Stable value of the first investment: " + totalStableGenerated*stableValue)
+    //>Updated Stable value of the first investment: 550000
     
     console.log("Total Stable value of the second investment: "+ totalStableGenerated2);
+    //>Total Stable value of the second investment: 550000
+
     console.log("Total value of both investments combined: "+ totalStableValue )
+    //>Total value of both investments combined: 1100000
     
     // We calculate the total number of bonds after the second investment
     const totalBondsAfterSecondTreasury = firstTreasury.totalBonds + secondTreasury.totalBonds;
     
     console.log("Total number of bonds after the second investment: " + totalBondsAfterSecondTreasury);
+    //>Total number of bonds after the second investment: 10000
+
     
     // Without extending further, it very important create processes to generate the functionality of hoarding and liquidation.
 

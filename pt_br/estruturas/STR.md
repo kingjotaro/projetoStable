@@ -1,12 +1,11 @@
-# Registro de Transações na Stable
+# Transaction Record in Stable
+This structure is responsible for recording transactions made in the Stable system, both outbound and inbound values by the treasury will also be recorded here. However, unlike the treasury which records aggregated amounts for Stable generation, here are the individual records of customer transactions, in summary:
 
-Essa estrutura é responsavel por registrar as transações feitas no sistema Stable, tanto saida como entrada de valores pelo tesouro também serão registradas aqui, porem difentemente do tesouro que registra montantes agrupados para geração de Stable, aqui fica os registros individuais das transações dos clientes, em resumo:
-
-- Transações de contas Stable para Stable
-- Transações de dentro do sistema Stable para fora com PIX
-- Transações de fora do sistema Stable para dentro recebendo PIX 
-- Transações que envolvam conta do cliente "entesouramente e desentesouramento"
-- Pagamentos PIX/Stable
+- Stable-to-Stable account transactions
+- Transactions from within the Stable system to outside with PIX
+- Transactions from outside the Stable system to inside receiving PIX
+- Transactions involving customer account "hoarding and dehoarding"
+- PIX/Stable payments
   
 
 

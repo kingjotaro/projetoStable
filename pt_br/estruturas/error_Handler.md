@@ -29,5 +29,4 @@ ________
 If no error occurs, the operation will proceed to the status check.
 
 ____
-
-This document belong to [Account Validation](./acc_validation.md)
+This documento only pertence to 

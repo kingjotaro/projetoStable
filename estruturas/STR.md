@@ -9,17 +9,19 @@ This structure is responsible for recording transactions made in the Stable syst
   
 
 
- ## modificar para ser uma operação dois objetos, um para quem envia e outro para quem recebe
       {
 
        _id: "56a4f3564",
        sender_id: "56a4f3564",
+       sender_name
        receiver_id: "13j1fj13",
+       action: 10,
        status: 3,
        is_stable: True,
        is_charge: False,
        amount: 50,
-       date: "11/04/2023",
+       date: "16/04/2023",
+       time: "07:00",
       }   
 
 ______________
@@ -68,7 +70,6 @@ Campo que informa o valor total da transação.
         date
 
 Data que foi realizada
-
 
 
 

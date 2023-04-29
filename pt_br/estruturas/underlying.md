@@ -43,9 +43,9 @@ Current value of the security / Total quantity of securities = Unit value per St
 Quantity of new securities * Unit price of new securities = New hoarding
 The New hoarding generates an amount of 1:X where X = Unit value per Stable
 
-See an [example](/example/lastro.md)
+See an [example](/example/lastro.js)
 
-Based on the presented example, we can have a preliminary view of how future hoarding processes and other related functions could work. However, it is important to keep in mind that as the analysis deepens, the level of complexity increases significantly.
+Based on the presented example, we can have a preliminary view of how future treasury processes and other related functions could work. However, it is important to keep in mind that as the analysis deepens, the level of complexity increases significantly.
 
 While I am focused on presenting the idea in a simple and clear way, it is crucial to emphasize that this document is just an outline. The objective is to validate the idea and identify the key areas that need to be considered in the full development of the project.
 
