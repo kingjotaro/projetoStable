@@ -1,6 +1,6 @@
 >  [PT-BR version](./pt_br/Readme.md)
 > 
-> [Excali](https://excalidraw.com/#json=VElGD3qf-RGIhR9d-QPqP,wsg1A8Jst_LJIJOq2Clh0A)
+> [Excali](https://excalidraw.com/#json=JDbN8zEOZeBSrjLYrwRQe,ZRrRAoeBlrgSx4ZxoCXZUQ)
 ## The digital URV
 
 Unfortunately, governments do not see the inflation as a problem, and often it is the people who end up paying the bill through an invisible tax that heavily affects the poorest and small business owners. The general population usually doesn't have time to worry about financial protection, while large companies need to create a department just to handle their cash, and individuals and businesses often outsource this activity to a third party, trusting that they will manage it in the best possible way.

@@ -1,6 +1,6 @@
 # **Definition of the digital URV Structure**
 
-## [Example of architecture](https://excalidraw.com/#json=VElGD3qf-RGIhR9d-QPqP,wsg1A8Jst_LJIJOq2Clh0A)
+## [Example of architecture](https://excalidraw.com/#json=JDbN8zEOZeBSrjLYrwRQe,ZRrRAoeBlrgSx4ZxoCXZUQ)
 
 
 <span style="color:lightblue"> Blue: Reminders.</span>
