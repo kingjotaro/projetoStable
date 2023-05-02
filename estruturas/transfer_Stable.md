@@ -1,6 +1,6 @@
-# Tranfer Sistema Stable to Stable
+# "Transfer Stable to Stable.
 
-Esse sistema é o resposanvel por realizar transações de Stable dentro do sistema Stable, bem similar ao sistema de transferencia pix seguindo um caminho diferente.
+This system is responsible for performing Stable transactions within the Stable system, which is very similar to the Pix transfer system but follows a different path.
 
     {
      _id: "123456",

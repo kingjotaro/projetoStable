@@ -17,11 +17,18 @@ This system is the most important of the project, as it is where all balance upd
  * The third involves balance adjustment operations of the system to ensure maximum liquidity on both sides of the operations, maintaining a minimum level of Stable and FIAT in the system to perform with greater efficiency and agility in transactions.
 
 
-To transactions within the Stable system.
+For all transactions that originate from within the Stable system will now be reflected in the Stable Record, the primary Status document that was generated. The document will now have the status of the transaction marked as completed and also contain additional information about the transaction that was performed.
+
+For all transactions coming from outside the Stable system, the pre-existing structure will be responsible for collecting and sending the information along with the Stable issuance order into the Stable system. This can be done in N ways depending on the strategy to be used for transactions and treasuries. For simplification, I will only create a document with an array that will have the information of the Pix received by the external structure attached to the Stable system.
 
     {
      _id: "123456",
-     acount_Id: "56a4f3564",
+     pix_doc: [ 
+                user: "1234567",
+                value: "500",
+                currency: "BRL",
+                etc: "....",     
+                ],
      action: "10",
      destiny: "13j1fj13",
      value: 500,
@@ -29,3 +36,9 @@ To transactions within the Stable system.
      time: "07:00",
 
     }
+
+The transaction registry is responsible for transactions within the Stable system. Stable operations that are not registered under an ownership and belong to the system operator are recorded in the  [treasury transaction registry](./STR.md)
+
+
+
+

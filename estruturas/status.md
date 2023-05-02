@@ -1,12 +1,13 @@
 # Status
 
-This structure is responsible for verifying the status of transactions in the Stable transaction registry. All payments, transfers, and SWAPs are thoroughly checked to prevent any possibility of errors, fraud, or any other related issues that may arise during financial transactions. This ensures that each transaction is processed correctly and efficiently while maintaining the integrity of the system.
+This structure is responsible for verifying the status of transactions and creating a transaction registry status. All payments, transfers, and SWAPs are thoroughly checked to prevent any possibility of errors, fraud, or any other related issues that may arise during financial transactions. This ensures that each transaction is processed correctly and efficiently while maintaining the integrity of the system.
 
 
     {
      _id: "123456",
      acount_Id: "56a4f3564",
      action: "10",
+     status: "3",
     }
 
 
@@ -27,12 +28,35 @@ Type of action being executed, which can be:
 - `"20"`: Swap FIAT
 
 - `"30"`: Payment
+    
+    status:
+
+Status of transaction 
+
+- Created: 0
+
+- Authorizing: 1
+
+- Authorized: 2
+
+- Unauthorized: 3
+
+- Awaiting input: 4
+
+- Sending payment: 5
+
+- Awaiting installments: 6
+
+- Completed: 7
+
+- Failure: 8
          
 ____
 
 The status verification structure is closely related to the validation structure. While the validation structure checks transactions from the account side, the status verification structure operates by checking transactions from the customer's transaction history.
 
 This means that the status verification structure serves as a second step or reuse of data that have already been verified during the account validation process. By checking transaction status from the historical side, the system can ensure that each transaction is accurately recorded and processed, while also providing a comprehensive record of all transactions for auditing, reporting, and compliance purposes.
+
 
 ____
 This structure interacts directly with the following structures.

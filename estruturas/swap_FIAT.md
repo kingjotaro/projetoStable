@@ -1,6 +1,6 @@
 # Swap Stable for FIAT
 
-This system is a simple system that will send a settlement order for Stable and transfer the FIAT value to the user's own account outside the Stable system.
+This is a simple system that will send a settlement order for Stable and transfer the FIAT value to the user's own account outside the Stable system.
 
 
     {
