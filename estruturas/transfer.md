@@ -38,9 +38,7 @@ Transaction date.
     time 
 Transaction time.
 ____
-Next step
-
-
+Next
 
 ## - [Account Validation System](./acc_valitadion.md)
 

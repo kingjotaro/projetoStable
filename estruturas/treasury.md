@@ -1,4 +1,4 @@
-# **Collateral Hoarding.**
+# **Treasury.**
 
 This structure is responsible for demonstrating how the creation of a collateral can be realized.
 
@@ -50,3 +50,9 @@ Based on the presented example, we can have a preliminary view of how future hoa
 While I am focused on presenting the idea in a simple and clear way, it is crucial to emphasize that this document is just an outline. The objective is to validate the idea and identify the key areas that need to be considered in the full development of the project.
 
 When considering the technical, financial, and operational aspects of the project, as well as the regulatory and legal implications, other challenges and opportunities may arise that need to be considered. Therefore, it is important to maintain a flexible approach that adapts as new information and perspectives emerge throughout the process.
+
+Next 
+
+## - [Balance Update](./balance_Update.md)
+
+## - [Treasury Transaction Record](./TTR.md)

@@ -12,6 +12,6 @@ System that automatically updates and displays the current balance in Stable on 
 
 _____
 
-This structure interact directly with the following structure
+Previous
 
 ## - [Stable Account](./acc_Stable.md)

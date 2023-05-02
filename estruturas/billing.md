@@ -52,7 +52,9 @@ ___
 ____
 
 
-This structure interacts directly with the following structures.
+Next
+## - [Payment Bills](payment_bills.md)
 
+Previous
 
 ## - [Stable Account](./acc_Stable.md)

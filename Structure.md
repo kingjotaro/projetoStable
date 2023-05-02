@@ -17,7 +17,7 @@ Arrows indicate a flow of data to be followed, but not necessarily in a single w
 
 # **Structures**
 
-## - [Underlying Asset](./estruturas/underlying.md)
+## - [Treasury](./estruturas/treasury.md)
 
 This structure represents the underlying asset, which is where everything starts when we take the titles acquired by our digital bank and create our Stable based on the values of that title. So this is the first document you should check. 
 __________________

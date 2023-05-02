@@ -33,7 +33,7 @@ ____
 **I believe there are additional pieces of information that an account should store. However, since we are dealing with the expansion of an already-existing account, I will focus on the bare minimum necessary in this aspect. Only the essential information needed to perform operations will be included.**
 
 ___
-This structure interacts directly with the following structures.
+Next Step
 
 ## - [Swap Stable for FIAT](./swap_FIAT.md)
 
@@ -45,6 +45,7 @@ This structure interacts directly with the following structures.
 
 ## - [Transfers](./transfer.md)
 
+Previous
 ## - [Balance Update](./balance_Update.md)
 
 

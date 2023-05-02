@@ -15,9 +15,10 @@ I will only provide the basics of this structure to avoid getting into a rabbit 
 
 ____
 
-This structure interacts directly with the following structures.
+Next
 
-## - [Underlying Asset](./estruturas/underlying.md)
+## - [Treasury](./estruturas/treasury.md)
 
+Previous
 
-## - [Account Validation System](./estruturas/acc_valitadion.md)
+## - [Check Status](./estruturas/status.md)

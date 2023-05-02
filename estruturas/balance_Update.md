@@ -39,6 +39,19 @@ For all transactions coming from outside the Stable system, the pre-existing str
 
 The transaction registry is responsible for transactions within the Stable system. Stable operations that are not registered under an ownership and belong to the system operator are recorded in the  [treasury transaction registry](./STR.md)
 
+______
+
+Next Step
+
+## - [Stablecoin Transaction Register](./estruturas/STR.md)
+
+## - [Stable Account](./estruturas/acc_Stable.md)
+
+Previous
+
+## - [Treasury](./estruturas/treasury.md)
+
+
 
 
 

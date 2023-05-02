@@ -46,10 +46,11 @@ Transaction date.
 Transaction time.
 
 ____
-This structure interacts directly with the following structures.
+Next 
 
 ## - [Account Validation System](./acc_valitadion.md)
 
+Previous
 ## - [Stable Account](./acc_Stable.md)
 
 

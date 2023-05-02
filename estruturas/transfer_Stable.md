@@ -11,10 +11,12 @@ This system is responsible for performing Stable transactions within the Stable 
      time: "07:00",
     }
 ____
-This structure interacts directly with the following structures.
+Next
 
-## - [Underlying Asset](./estruturas/underlying.md)
+## - [Balance Update](./balance_Update.md)
 
 
-## - [Account Validation System](./estruturas/acc_valitadion.md)
+Previous
+
+## - [Check Status](./estruturas/status.md)
 

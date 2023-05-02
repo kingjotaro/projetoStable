@@ -21,8 +21,10 @@ Client name.
 
 ___
 
-This structure interacts directly with the following structures.
+Next
 
-## - [Check Status](./status.md)
+## - [Check Transaction History](./estruturas/client_history.md)
+
+Previous
 
 ## - [Stable Account](./acc_Stable.md)
