@@ -1,5 +1,7 @@
 # Dataflow 
 
+[Full Excali view](https://excalidraw.com/#json=JDbN8zEOZeBSrjLYrwRQe,ZRrRAoeBlrgSx4ZxoCXZUQ)
+
 In this document, I will present the data flow for the project. The objective is to create a Stablecoin on an already established banking infrastructure that merges the functions of a bank and an asset brokerage.
 
 This infrastructure will be the project foundation, and to demonstrate the data flows, I find it crucial to introduce the pre-existing structure utilized for executing the project.
